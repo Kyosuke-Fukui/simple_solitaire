@@ -1,0 +1,35 @@
+h2 {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#play_area {
+    width: 50%;
+    margin: 20px auto;
+}
+
+#rest_cards,
+.card {
+    width: 30px;
+    height: 40px;
+    border: solid 1px black;
+    margin: 2px 2px 2px 2px;
+}
+
+/* #open_cards {
+    border: solid 1px rgb(255, 255, 255);
+} */
+
+#upper,
+#bottom {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+#deck,
+#collection {
+    display: flex;
+}
